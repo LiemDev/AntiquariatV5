@@ -5,7 +5,7 @@ include 'fetch_random_books.php';
 // Es werden drei zufällig ausgewählte Bücher aus der Datenbank abgerufen und in der Variable $random_books gespeichert
 $random_books = fetch_random_books($conn, 3);
 ?>
-
+// Startet eine Session
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
