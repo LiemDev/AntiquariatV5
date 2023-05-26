@@ -19,7 +19,7 @@ if (isset($_POST['search']) && !empty($_POST['search'])) {
 }
 ?>
 
-
+// Startet die Session
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
