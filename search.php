@@ -80,5 +80,5 @@ if (isset($_POST['search']) && !empty($_POST['search'])) {
   </div>
 </body>
 </html>
-
+// Schliesst die Verbindung zur Datenbank
 <?php $conn->close(); ?>
