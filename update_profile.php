@@ -1,3 +1,4 @@
+// Startet die Session
 <?php
 session_start();
 
@@ -33,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   } else {
     $stmt->bind_param("ssss", $name, $vorname, $email, $benutzername);
   }
-
+// Schliesst das Statement
   $stmt->execute();
   $stmt->close();
 
