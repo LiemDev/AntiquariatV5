@@ -1,3 +1,4 @@
+//  Fügt den Inhalt der Datei "db_config.php" in das aktuelle Skript ein.
 <?php
 include 'db_config.php';
 
@@ -30,7 +31,7 @@ $total_customers = $row_total['total'];
 // Bestimme die Gesamtzahl der Seiten, die benötigt werden, um alle Kunden anzuzeigen
 $total_pages = ceil($total_customers / $limit);
 ?>
-
+// Startet die Session
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
