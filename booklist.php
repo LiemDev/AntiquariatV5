@@ -1,3 +1,4 @@
+// Startet eine Session
 <?php session_start(); ?>
 <?php
 // Datenbankverbindung herstellen
