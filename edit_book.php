@@ -1,3 +1,4 @@
+//Startet die Session
 <?php session_start(); ?>
 <?php
 // Datenbankverbindung herstellen
@@ -9,6 +10,7 @@ if (!isset($_GET['id'])) {
     exit;
 }
 
+// Liest den Wert des GET-Parameters "id" und weist ihn der Variablen "$bookId" zu.
 $bookId = $_GET['id'];
 
 // Überprüfen, ob das Buch existiert
